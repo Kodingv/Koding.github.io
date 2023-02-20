@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./main.css">
+  <title>Trip Planner</title>
+</head>
+<body>
+  <!-- carousel -->
+  <div class="carousel">
+    <div class="slide-container">
+      <!-- <div class="slide-box">
+        <div class="card">
+          <img src="./img/f1.png">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Quae voluptas voluptatum minus praesentium fugit debitis at, 
+            laborum ipsa itaque placeat sit, excepturi eius. 
+            Nostrum perspiciatis, eligendi quae consectetur praesentium exercitationem.
+          </p>
+        </div>
+      </div> -->
+    </div>
+    <div class="btn-container">
+      <button class="previous-btn">‹</button>
+      <div class="period"></div>
+      <div class="period"></div>
+      <div class="period"></div>
+      <div class="period"></div>
+      <div class="period"></div>
+      <button class="next-btn">›</button>
+      <button class="start-btn">Start</button>
+    </div>
+  </div>
+
+  <!-- choose P vs J -->
+  <div class="choose-container">
+    <h3>성향에 따라 플래너를 사용해보세요!</h3>
+
+    <div class="type-container">
+      <a href="./pType.html">
+        <div class="type-card">
+          <div class="hideDiv">
+            <p>P Type으로 여행하기</p>
+          </div>
+          <div class="imgDiv">
+            <img src="./img/plane.png">
+          </div>
+        </div>
+      </a>
+      <a href="./jType.html">
+        <div class="type-card j-card">
+          <div class="hideDiv">
+            <p>J Type으로 여행하기</p>
+          </div>
+          <div class="imgDiv">
+            <img src="./img/plane.png">
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
